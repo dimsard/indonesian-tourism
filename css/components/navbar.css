@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  padding: 2rem 1.75rem;
+  width: 100%;
+  background: rebeccapurple;
+}
+
+.nav .nav-item {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.nav .nav-item .nav-item-list {
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+}
+
+.nav .nav-item .nav-item-btn {
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  padding: .6rem;
+  border-radius: 999rem;
+}
